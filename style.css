@@ -1,0 +1,44 @@
+body {
+   background-image: url("Background.jpg");
+}
+
+.container {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    background-color: rgb(255, 236, 243);
+    color: rgb(56, 42, 22);
+}
+
+.row {
+    gap: 5px;
+    /* background-color: rgb(255, 236, 243); */
+}
+
+.col {
+    width: 20%;
+    border: 3px solid rgb(56, 42, 22);
+    background-color: rgb(255, 236, 243);
+    box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.75);
+}
+
+.footer {
+    border: 3px solid rgb(56, 42, 22);
+    background-color: rgb(255, 236, 243);
+    color: rgb(56, 42, 22);
+    text-align: center;
+    align-items: center;
+    box-shadow: 7px 7px 2px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.Ballerina {
+    width: 200px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
